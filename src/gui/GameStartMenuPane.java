@@ -26,7 +26,7 @@ public class GameStartMenuPane extends StackPane {
         Button exitButton = createStyledButton("Exit");
 
         startButton.setOnAction(e -> onStartGame.run());
-        tutorialButton.setOnAction(e -> System.out.println("Show tutorial"));
+        //tutorialButton.setOnAction(e -> primaryStage.setScene(new Scene(new Tutorial(primaryStage), 1360, 768)));
         exitButton.setOnAction(e -> primaryStage.close());
 
         // ปุ่มเครดิต
